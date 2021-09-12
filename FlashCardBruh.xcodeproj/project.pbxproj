@@ -13,6 +13,9 @@
 		1F243CC826ED67DB00BCDA0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F243CC626ED67DB00BCDA0B /* Main.storyboard */; };
 		1F243CCA26ED67DB00BCDA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F243CC926ED67DB00BCDA0B /* Assets.xcassets */; };
 		1F243CCD26ED67DB00BCDA0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F243CCB26ED67DB00BCDA0B /* LaunchScreen.storyboard */; };
+		1F243CD626ED69A800BCDA0B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243CD526ED69A800BCDA0B /* TableViewController.swift */; };
+		1F243CD926ED6FF300BCDA0B /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243CD826ED6FF300BCDA0B /* FlashCard.swift */; };
+		1F243CDB26ED700100BCDA0B /* FlashCardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243CDA26ED700100BCDA0B /* FlashCardManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1F243CC926ED67DB00BCDA0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F243CCC26ED67DB00BCDA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F243CCE26ED67DB00BCDA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F243CD526ED69A800BCDA0B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1F243CD826ED6FF300BCDA0B /* FlashCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
+		1F243CDA26ED700100BCDA0B /* FlashCardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,32 @@
 			children = (
 				1F243CC026ED67DB00BCDA0B /* AppDelegate.swift */,
 				1F243CC226ED67DB00BCDA0B /* SceneDelegate.swift */,
-				1F243CC426ED67DB00BCDA0B /* ViewController.swift */,
-				1F243CC626ED67DB00BCDA0B /* Main.storyboard */,
+				1F243CD426ED699200BCDA0B /* Controllers */,
+				1F243CD726ED6FDD00BCDA0B /* Models */,
 				1F243CC926ED67DB00BCDA0B /* Assets.xcassets */,
+				1F243CC626ED67DB00BCDA0B /* Main.storyboard */,
 				1F243CCB26ED67DB00BCDA0B /* LaunchScreen.storyboard */,
 				1F243CCE26ED67DB00BCDA0B /* Info.plist */,
 			);
 			path = FlashCardBruh;
+			sourceTree = "<group>";
+		};
+		1F243CD426ED699200BCDA0B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F243CC426ED67DB00BCDA0B /* ViewController.swift */,
+				1F243CD526ED69A800BCDA0B /* TableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1F243CD726ED6FDD00BCDA0B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F243CD826ED6FF300BCDA0B /* FlashCard.swift */,
+				1F243CDA26ED700100BCDA0B /* FlashCardManager.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +165,9 @@
 				1F243CC526ED67DB00BCDA0B /* ViewController.swift in Sources */,
 				1F243CC126ED67DB00BCDA0B /* AppDelegate.swift in Sources */,
 				1F243CC326ED67DB00BCDA0B /* SceneDelegate.swift in Sources */,
+				1F243CD626ED69A800BCDA0B /* TableViewController.swift in Sources */,
+				1F243CDB26ED700100BCDA0B /* FlashCardManager.swift in Sources */,
+				1F243CD926ED6FF300BCDA0B /* FlashCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
